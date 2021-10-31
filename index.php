@@ -12,6 +12,15 @@
                 <div class="head">
                 <h1>CTF CHALLANGE </h1><i style="font-size:24px" class="fas fa-flag"></i>
                 </div>
+                <hr>
+                <div class="cate">
+                        <h3 class="head2">Categories</h3>
+                        <div>
+                                <h4>Web</h4>
+                                
+                        </div>
+                </div>
+               
         </body>
 
 </html>
