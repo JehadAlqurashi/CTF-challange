@@ -27,8 +27,8 @@
                     <div class="web">
                         <h4 style="background: #fdfcfc;border:1px solid black;margin-top: 0;color:black;height: 70px"><span style="position: relative ;top:20px;font-weight: bold">Web</span></h4>
                         <ul class="webOrder">
-                            <li><a href="web/ice_creeam">LFI</a></li>
-                            <li><a href="web/klega" >LFI</a></li>
+                            <li><a href="web/Humble">Humble</a></li>
+                            <li><a href="web/klega" >Klega</a></li>
                             <li><a href="web/Potato">Potato</a></li>
                         </ul>
                     </div>
