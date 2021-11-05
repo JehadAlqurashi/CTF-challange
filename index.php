@@ -29,7 +29,7 @@
                         <ul class="webOrder">
                             <li><a href="web/DBS">DBS</a></li>
                             <li><a href="web/Humble">Humble</a></li>
-                            <li><a href="web/klega" >Types</a></li>
+                            <li><a href="web/type" >Types</a></li>
                             <li><a href="web/Potato">Potato</a></li>
                         </ul>
                     </div>
