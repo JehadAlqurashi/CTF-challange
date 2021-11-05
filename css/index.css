@@ -5,11 +5,12 @@ body{
     margin: 0;
 
 }
+
 .head{
     text-align: center;
     color:black;
 
-    
+
 }
 img{
     position: absolute;
@@ -42,18 +43,15 @@ li{
     border:1px solid black;
     height:600px;
     width: 300px;
-    display: inline-block;
     box-shadow: 1px 2px 5px  #585252;
 }
 .webOrder{
     list-style: none;
-}
-.webOrder li{
-    margin:50px;
+    padding: 0;
+    margin: 0;
 }
 a {
     text-decoration: none;
-    position: relative;
     top:20px;
     right: 20px;
     color:black;
@@ -61,4 +59,33 @@ a {
     font-weight: bolder;
     font-style: revert;
 
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu h4{
+    background-color: #6e6262;
+    font-size: 22px;
+    margin: 0px;
+    height: 40px;
+
+}
+.title{
+    background-color: #046A7A;
+    font-size: 22px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content ul li{
+    width: 100%;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content ul li:hover{
+    background-color: #CBCBCA;
 }

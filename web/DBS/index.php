@@ -9,6 +9,8 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     $check = $connect->query("select * from users where email='$email' and password='$password' ");
     if(!$check->num_rows){
         $fail =  "Email Or Password is Wrong";
+    }else{
+        echo "Login Success";
     }
 }
 
@@ -19,7 +21,9 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
 <div class="login">
     
   <div class="form">
-  <?php echo $fail; ?>
+  <?php if(isset($fail)){
+      echo $fail;
+  }; ?>
     <form class="login-form" action="" method="post">
       <span class="material-icons">lock</span>
       <input name="email" type="text" placeholder="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/>

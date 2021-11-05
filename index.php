@@ -14,41 +14,52 @@
                 <h1>CTF CHALLENGES </h1>
                 </div>
                 <h3 class="head2">Categories</h3>
-                <div class="cate">
-                    <i style="font-size:24px;position: absolute;color:black;left: 50%" class="fas fa-flag"></i>
+                <div class="menu">
+                    <i class="fas fa-flag"></i>
                         <div class="web">
-                                <h4 style="background: #fdfcfc;border:1px solid black;margin-top: 0;color:black;height: 70px"><span style="position: relative ;top:20px;font-weight: bold">General</span></h4>
+                            <div class="title">General</div>
+                            <div class="content">
                                 <ul class="webOrder">
-                                    <li><a href="web/" >LFI</a></li>
-                                    <li><a href="web/" >LFI</a></li>
-                                    <li><a href="web/" >LFI</a></li>
+                                <a href="web/" ><li>LFI</li></a>
+                                <a href="web/" > <li>LFI</li></a>
+                                <a href="web/" > <li>LFI</li></a>
                                 </ul>
+                            </div>
                         </div>
-                    <div class="web">
-                        <h4 style="background: #fdfcfc;border:1px solid black;margin-top: 0;color:black;height: 70px"><span style="position: relative ;top:20px;font-weight: bold">Web</span></h4>
-                        <ul class="webOrder">
-                            <li><a href="web/DBS">DBS</a></li>
-                            <li><a href="web/Humble">Humble</a></li>
-                            <li><a href="web/type" >Types</a></li>
-                            <li><a href="web/Potato">Potato</a></li>
-                        </ul>
-                    </div>
-                    <div class="web">
-                        <h4 style="background: #fdfcfc;border:1px solid black;margin-top: 0;color:black;height: 70px"><span style="position: relative ;top:20px;font-weight: bold">Steganography</span></h4>
-                        <ul class="webOrder">
-                            <li><a href="web/">LFI</a></li>
-                            <li><a href="web/" >LFI</a></li>
-                            <li><a href="web/" >LFI</a></li>
-                        </ul>
-                    </div>
-                    <div class="web">
-                        <h4 style="background: #fdfcfc;border:1px solid black;margin-top: 0;color:black;height: 70px"><span style="position: relative ;top:20px;font-weight: bold">Network</span></h4>
-                        <ul class="webOrder">
-                            <li><a href="web/" >LFI</a></li>
-                            <li><a href="web/">LFI</a></li>
-                            <li><a href="web/">LFI</a></li>
-                        </ul>
-                    </div>
+                        <div class="web">
+                            <div class="title">Web</div>
+                            <div class="content">
+                                <ul class="webOrder">
+                                  <a href="web/DBS"><li>DBS</li></a>
+                                  <a href="web/Humble"><li>Humble</li></a>
+                                  <a href="web/type" ><li>Types</li></a>
+                                  <a href="web/Potato"><li>Potato</li></a>
+                                  <a href="web/Potato"> <li>Potato</li></a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="web">
+                            <div class="title">Steganography</div>
+                            <div class="content">
+                                <ul class="webOrder">
+                                <a href="general/close_look.php"><li>Close Look</li></a>
+                                <a href="general/intercept.php"><li>Intercept</li></a>
+                                <a href="general/history.php" ><li>History</li></a>
+                                <a href="general/ransomware.php" ><li>Ransomware</li></a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="web">
+                            <div class="title">Network</div>
+                            <div class="content">
+                                <ul class="webOrder">
+                                <a href="web/"><li>LFI</li></a>
+                                <a href="web/" ><li>LFI</li></a>
+                                <a href="web/" ><li>LFI</li></a>
+                                </ul>
+                            </div>
+                        </div>
+
                 </div>
                
         </body>
