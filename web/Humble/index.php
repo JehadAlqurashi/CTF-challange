@@ -12,4 +12,7 @@ if($isAdmin){
 
 }
 highlight_file(__FILE__);
+
+$hello = "hello";
+$$hello = "dd";
 ?>
