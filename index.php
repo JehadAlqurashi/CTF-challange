@@ -52,7 +52,7 @@ $count = $connect->query("select sum(point) as point from points where count='1'
                                 <a href="general/ransomware.php" ><li>Ransomware</li></a>
                                 <a href="general/history.php" > <li>History</li></a>
                                 <a href="general/intercept.php" > <li>Intercept</li></a>
-                                <a href="general/close_look.php" > <li>Close Look</li></a>
+                                <a href="general/Close_Look.php"> <li>Close Look</li></a>
                                 </ul>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ $count = $connect->query("select sum(point) as point from points where count='1'
                             <div class="title">Web</div>
                             <div class="content">
                                 <ul class="webOrder">
-                                    <a href="web/DBS"><li>Source</li></a>
+                                    <a href="web/source"><li>Source</li></a>
                                   <a href="web/DBS"><li>DBS</li></a>
                                   <a href="web/Humble"><li>Humble</li></a>
                                   <a href="web/type" ><li>Types</li></a>
