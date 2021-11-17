@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     if(!$check->num_rows){
         $fail =  "Email Or Password is Wrong";
     }else{
-        echo "Login Success";
+        $sucess= "RmxhZ3s4NWFmYWFiNWYzYjZhNjM4MjY5ZTMzZDEyZGEyZmVkZn0K";
     }
 }
 
@@ -18,12 +18,21 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
 
 ?>
 <link rel="stylesheet" href="DBS.css">
+<?php
+if(isset($sucess)){
+      echo $sucess;
+  };
+  ?>
 <div class="login">
     
   <div class="form">
   <?php if(isset($fail)){
       echo $fail;
-  }; ?>
+  };
+
+
+   ?>
+
     <form class="login-form" action="" method="post">
       <span class="material-icons">lock</span>
       <input name="email" type="text" placeholder="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/>
