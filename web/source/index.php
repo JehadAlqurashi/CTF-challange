@@ -122,7 +122,7 @@
       </div>
     </footer>
     
-    Flag{36cd38f49b9afa08222c0dc9ebfe35eb}
+    <p class="flag">Flag{36cd38f49b9afa08222c0dc9ebfe35eb}</p>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
