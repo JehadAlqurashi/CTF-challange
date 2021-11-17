@@ -65,7 +65,7 @@ $count = $connect->query("select sum(point) as point from points where count='1'
                                   <a href="web/Humble"><li>Humble</li></a>
                                   <a href="web/type" ><li>Types</li></a>
                                   <a href="web/Potato"><li>Potato</li></a>
-                                  <a href="web/Potato"><li>Hashes</li></a>
+                                  <a href="web/hashes"><li>Hashes</li></a>
                                 </ul>
                             </div>
                         </div>
